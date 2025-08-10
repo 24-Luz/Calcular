@@ -1,0 +1,40 @@
+body {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  margin-top: 50px;
+  background-image: url(Sky}.jpg);
+  background-repeat: no-repeat;
+  background-position: relative;
+  background-size: cover;
+}
+h2{
+  color: rgb(255, 255, 255);
+}
+input,select,button {
+  margin: 5px;
+  padding: 8px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #BC2041;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #681818;
+
+}
+footer {
+    background-color: #000000;
+    color: #fff;           
+    text-align: center;   
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    font-size: 14px;
+}

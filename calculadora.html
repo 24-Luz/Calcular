@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="calculadora.css">
+</head>
+<body>
+    <h2>Calculadora</h2>
+    <input type="number" id="num1" placeholder="Número 1" step="any" required>
+    <input type="number" id="num2" placeholder="Número 2" step="any" required>
+    
+    <select id="operador">
+        <option value="+">Suma</option>
+        <option value="-">Resta</option>
+        <option value="*">Multiplicación</option>
+        <option value="/">División</option>
+    </select>
+    
+    <button onclick="calcular()">Calcular</button>
+    
+    <h3 id="resultado"></h3>
+    <footer>
+    <p>Luz Marina Franco Hernandez - Ficha: 3206403</p>
+</footer>
+
+    <script src="calculadora.js"></script>
+    
+</body>
+</html>
